@@ -29,7 +29,12 @@ body {
  */
 
 main {
-  display: block;
+  display: grid;
+  grid-template-columns: 2fr 1fr ;
+  grid-auto-rows: min-content ;
+  grid-gap: 2rem ;
+  width: 40vw ;
+  margin: 0 auto ;
 }
 
 /**
