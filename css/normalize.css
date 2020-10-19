@@ -37,30 +37,6 @@ a:hover {
   color: #ae7f3d ;
 }
 
-main {
-  display: grid ;
-  grid-template-columns: 2fr 1fr ;
-  grid-auto-rows: min-content ;
-  grid-gap: 2rem ;
-  width: 40vw ;
-  margin: 0 auto ;
-}
-
-.intro-block {
-  grid-column: 1 / 3 ;
-}
-
-.item {
-  grid-column: 1 ;
-  border-top: 1px solid #ff6347 ;
-  padding: 1rem 0 ;
-}
-
-.definition {
-  grid-column: 2 ;
-  border-top: 1px solid #ff6347 ;
-  padding: 1rem 0 ;
-}
 
 /**
  * Correct the font size and margin on `h1` elements within `section` and

@@ -17,6 +17,38 @@ html {
   line-height: 1.4;
 }
 
+
+main {
+  display: grid ;
+  grid-template-columns: 2fr 1fr ;
+  grid-auto-rows: min-content ;
+  grid-gap: 2rem ;
+  width: 60vw ;
+  margin: 0 auto ;
+}
+
+
+img {
+    width: 100%;
+}
+
+.intro-block {
+  grid-column: 1 / 3 ;
+}
+
+.item {
+  grid-column: 1 ;
+  border-top: 1px solid #ff6347 ;
+  padding: 1rem 0 ;
+}
+
+.definition {
+  grid-column: 2 ;
+  border-top: 1px solid #ff6347 ;
+  padding: 1rem 0 ;
+}
+
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
