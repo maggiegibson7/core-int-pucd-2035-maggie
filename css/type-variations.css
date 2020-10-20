@@ -16,7 +16,7 @@ main {
   grid-template-columns: 2fr 1fr ;
   grid-auto-rows: min-content ;
   grid-gap: 2rem ;
-  width: 90vw ;
+  width: 70vw ;
   margin: 0 auto ;
 }
 
@@ -55,7 +55,7 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-  font-size:5rem;
+  font-size:10rem;
   font-weight:800;
   line-height: 1.25;
   font-family: 'Paytone One' , sans-serif;
