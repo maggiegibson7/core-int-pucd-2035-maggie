@@ -1,0 +1,107 @@
+html {
+  color: #E6E6FA ;
+  font-size: 1rem;
+  line-height: 1.4;
+  font-family: 'Chivo', sans-serif;
+  background-color: #000 ;
+}
+
+body {
+  padding: 5rem 0;
+}
+
+
+main {
+  display: grid ;
+  grid-template-columns: 2fr 1fr ;
+  grid-auto-rows: min-content ;
+  grid-gap: 2rem ;
+  width: 90vw ;
+  margin: 0 auto ;
+}
+
+
+img {
+    width: 100%;
+}
+
+.intro-block {
+  grid-column: 1 
+}
+
+.blurb {
+  grid-column: 1 / 2 ; 
+  grid-row: 2 ;
+  padding: 1rem 0;
+  line-height: 1.25 ;
+}
+
+.item {
+  grid-column: 1 ;
+  border-top: 1px solid #ff6347 ;
+  padding: 1rem 0 ;
+}
+
+.definition {
+  grid-column: 1 ;
+  border-top: 1px solid #ff6347 ;
+  padding: 1rem 0 ;
+}
+
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Paytone One', sans-serif;
+  margin-bottom:1rem;
+}
+
+h1 {
+  font-size:5rem;
+  font-weight:800;
+  line-height: 1.25;
+  font-family: 'Paytone One' , sans-serif;
+}
+
+h2 {
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+h3 {
+  font-size:2rem;
+  font-weight:400;
+}
+
+h4 {
+  font-size:2rem;
+  padding: 0.5rem 0;
+}
+
+li {
+  font-size: 1.25rem;
+  font-family:'Paytone One', sans-serif;
+  line-height: 1.5;
+  padding: .5rem 0;
+}
+
+p {
+  font-size: 1.125rem;
+  line-height:1.5;
+  margin-bottom: 1rem;
+}
+
+.location {
+  font-size: 1rem;
+  font-family: 'Chivo', sans-serif;
+  line-height: 1.5;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+figcaption {
+  font-size: .875rem;
+  font-family: 'Chivo', sans-serif;
+  padding-top: 1rem;
+}
