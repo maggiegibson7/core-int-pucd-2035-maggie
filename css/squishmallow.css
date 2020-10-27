@@ -10,7 +10,8 @@ html {
 }
 
 body {
-  padding:5rem 0;
+  padding:7rem 0;
+  color: #fff;
 }
 
 a {
@@ -34,7 +35,7 @@ a:hover {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap:1.5rem;
-  padding:0 1rem;
+  padding:0 3rem;
 }
 
 
@@ -59,16 +60,19 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-  font-size:2rem;
+  font-size:4rem;
   font-weight:700;
   font-style: italic;
+  padding-left:  7rem ;
+  padding-top: 4rem ;
 }
 h2 {
-  font-size:1.75rem;
+  font-size:2.5rem;
 }
 h3 {
-  font-size:1.5rem;
-  font-weight:400;
+  font-size:1.25rem;
+  font-weight:100;
+  font-style: italic;
 
 }
 h4 {
@@ -79,19 +83,20 @@ h4 {
 li {
   font-size: 1.25rem;
   font-family: 'Paytone One', sans-serif;
-  line-height: 1.5;
+  line-height: 1;
   padding: .5rem 0;
 }
 
-.artist-name {
+.animal-name {
   font-family: 'Chivo', sans-serif;
   line-height: 1;
   font-weight:700;
   margin-top:.5rem;
 }
 
-.exhibit-title {
+.animal-species {
   color:#777;
+  line-height: .75;
 }
 
 
