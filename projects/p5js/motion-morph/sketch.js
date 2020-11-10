@@ -51,7 +51,7 @@ function setup() {
 }
 
 function draw() {
-  background(#000);
+  background(51);
 
   // We will keep how far the vertices are from their target
   let totalDistance = 0;
