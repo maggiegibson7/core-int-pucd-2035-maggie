@@ -25,6 +25,16 @@ body {
         padding: 0;
     }
 
+    div {
+  border-style: solid;
+  border-color: #E6E6FA;
+  border-width: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
     grid-set-right {
       display: grid;
         grid-template-columns: 1fr 2fr 4fr 8fr 16fr;
